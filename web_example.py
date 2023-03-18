@@ -122,7 +122,7 @@ if st.session_state.stage > 1:
     st.pyplot(fig)
 
     # Reset app button
-    st.markdown('_Reset the app to start from the beginning:_')
+    st.markdown('_Reset the app:_')
     st.button('Reset', on_click=set_stage, args=(0,))
 
 
